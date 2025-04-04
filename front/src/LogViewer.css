@@ -1,0 +1,47 @@
+/* Estilo para el contenedor de los logs */
+.log-container {
+    max-width: 67%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace; /* Estilo tipo consola */
+    color: #333;
+  }
+  
+  /* Estilo para las líneas individuales del log */
+  .log-line {
+    white-space: pre-wrap; /* Mantiene los saltos de línea */
+    padding: 5px 0;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  /* Última línea del log */
+  .log-line:last-child {
+    border-bottom: none;
+  }
+  
+  /* Estilo para errores o advertencias en el log */
+  .log-line.error {
+    color: red;
+  }
+  
+  .log-line.info {
+    color: blue;
+  }
+  
+  /* Estilo para una animación de parpadeo, útil para mostrar actividad */
+  .log-line.updating {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  

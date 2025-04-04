@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el Header*/
+.Header{
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #2f1c42;
+  padding: 40px;
+}
+
+/* Estilo para la aplicación en general */
+.App {
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1425;
+  padding: 40px;
+  color: #d8b6e2;
+  height: 100vh; /* 100% del alto de la ventana */
+  font-weight: bold;
+}
+
+/* Estilo para el título */
+h1 {
+  color: #d8b6e2;
+  margin-bottom: 30px;
+}
+
+/* Grupo de formulario para alinear los inputs */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilo para los campos de entrada */
+.input-field {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Cambia el color del borde al hacer focus en los inputs */
+.input-field:focus {
+  border-color: white;
+}
+
+/* Estilo para el botón */
+.search-button {
+  background-color: #e3b6ed;
+  color: #1c1425;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambia el color del botón cuando se pasa el mouse */
+.search-button:hover {
+  background-color: #9403fa;
+}
+
+/* Estilo responsive para móviles 
+@media (max-width: 600px) {
+  .input-field {
+    width: 100%;
+  }
+}*/
